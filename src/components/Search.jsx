@@ -6,6 +6,7 @@ function Search({setSearch}) {
       <input
         type="text"
         placeholder="Search your Recent Transactions"
+        aria-label="search"
         onChange={(e) => setSearch(e.target.value)}
       />
       <i className="circular search link icon"></i>
